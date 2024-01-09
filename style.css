@@ -1,0 +1,241 @@
+/* kumbh-sans-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Kumbh Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/kumbh-sans-v20-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* kumbh-sans-500 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Kumbh Sans';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/kumbh-sans-v20-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* kumbh-sans-600 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Kumbh Sans';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/kumbh-sans-v20-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+body {
+    font-family: "Kumbh Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+     background-color: #fff; 
+    color: #333;
+    transition: background-color 0.3s, color 0.3s;
+     background-color:#F4F6F8; 
+}
+
+.container {
+    max-width: 1440px;
+    margin: 20px auto;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    /* text-align: center; */
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.header{
+    background-image: url('img/headerr-img.png');
+    width: 1440px;
+    height: 162px;
+}
+.header-img{
+    padding-left: 165px;
+    padding-top: 45px;
+    width: 115px;
+    height: 32px;
+}
+ .dark-mode {
+    background-color: #333;
+    color: white;
+    border-color: white;
+}
+
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 28px;
+    margin-left: 883px
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc; 
+    transition: 0.3s;
+    border-radius: 34px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: 0.3s;
+    border-radius: 50%;
+}
+
+input:checked + .slider {
+    background-color: #007BFF;
+}
+
+input:checked + .slider:before {
+    transform: translateX(26px);
+}
+
+#modeText {
+    margin-top: 20px;
+}
+.main-top{
+    width: 1110px;
+    height: 80px;
+    border: 1px solid black;
+    display: flex;
+    border-radius: 8px;
+    margin-left: 165px;
+    
+}
+
+.search{
+    border: none;
+    width: 423px;
+    height: 79px;
+    background-color: transparent;
+    font-size: 16px;
+}
+
+.search-2{
+    border: none;
+    width: 300px;
+    height: 79px;
+    background-color: transparent;
+    font-size: 16px;
+}
+.chek{
+    margin-top: 28px;
+    width: 24px;
+    height: 24px;
+    
+}
+.thre{
+    display: flex;
+
+}
+.full{
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 31px;
+    margin-left: 10px;
+}
+.sear{
+    width: 123px;
+    height: 48px;
+    border-radius: 8px;
+    background-color: #5964E0;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-top: 16px;
+    transition: 0.3s;
+    font-weight: 400;
+    color: white;
+    border: none;
+}
+.sear:hover{
+    background-color: #939BF4;
+}
+
+.main-header{
+    width: 1110px;
+    height: 1060px;
+    /* border: 1px solid black; */
+    margin-left: 165px;
+    margin-top: 80px;
+}
+.birinchi{
+    display: flex;
+    gap: 33px;
+    margin-top: 30px;
+    
+}
+.senior{
+    width: 350px;
+    height: 233px;
+    border: 1px solid black;
+    border-radius: 8px;
+    /* background-color: #F4F6F8; */
+}
+.group {
+    margin-left: 32px;
+    margin-top: -20px;
+}
+.ago {
+    margin-left: 32px;
+    font-size: 16px;
+    margin-top: 24px;
+}
+.engir {
+    margin-left: 32px;
+    font-size: 22px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+.enggir{
+    text-decoration: none;
+    color: black;
+}
+.scot {
+    margin-left: 32px;
+    font-size: 16px;
+    
+}
+.united {
+    margin-left: 32px;
+    font-size: 18px;
+    
+}
+.see{
+    text-decoration: none;
+    color: black;
+}
+
+.load{
+    width: 141px;
+    height: 48px;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color:#5964E0;
+    border: none;
+    transition: 0.3s;
+    color: white;
+    margin-left: 649px;
+    margin-top: 56px;
+    margin-bottom: 50px;
+}
+.load:hover{
+    background-color: #939BF4;
+}
